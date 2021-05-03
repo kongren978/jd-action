@@ -6,7 +6,7 @@ name: jd_unsubscribe
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0/05 5-7 * * *'
+    - cron: '0 0/10 7-9 * * ? '
   watch:
         types: started
 
